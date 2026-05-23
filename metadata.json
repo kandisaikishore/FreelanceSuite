@@ -1,0 +1,6 @@
+{
+  "name": "Freelance Workspace",
+  "description": "A high-fidelity freelance suite providing project management tools, milestone-based escrow payments, direct client chat simulation, and custom AI proposal generators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
