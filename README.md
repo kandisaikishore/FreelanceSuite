@@ -2,9 +2,9 @@
 
 A software project exploring workflows for freelancers. Check the implementation for the exact modules and actions currently available.
 
-## Project overview
+## Overview
 
-The repository provides a codebase to build and iterate on a freelance-work management experience. Common areas to document as they become available include client records, projects, proposals, invoices, and task tracking.
+This repository provides a codebase for a freelance-work management experience. Document supported workflows—such as client records, projects, proposals, invoices, or task tracking—only when they are present in the code.
 
 ## Getting started
 
@@ -13,12 +13,12 @@ git clone https://github.com/saikishore2410/FreelanceSuite.git
 cd FreelanceSuite
 ```
 
-Install dependencies and start the application using the commands defined in the project configuration and environment examples.
+Install dependencies and start the application using commands defined in the project configuration and environment examples.
 
 ## Implementation checklist
 
-- Document the supported user workflows
-- Validate form input and error messages
+- Document supported user workflows
+- Validate form inputs and error messages
 - Protect client and billing data
 - Add tests for core business rules
 - Document deployment, backup, and recovery procedures
