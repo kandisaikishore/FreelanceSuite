@@ -1,54 +1,34 @@
 # FreelanceSuite
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/FreelanceSuite) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/FreelanceSuite)](https://github.com/kandisaikishore/FreelanceSuite/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+FreelanceSuite is a project workspace for exploring software workflows that support independent professionals. It provides a starting point for organizing freelance work; consult the current implementation to confirm which modules are available.
 
+## Product focus
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/FreelanceSuite) [![Issues](https://img.shields.io/github/issues/saikishore2410/FreelanceSuite)](https://github.com/saikishore2410/FreelanceSuite/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/FreelanceSuite)](https://github.com/saikishore2410/FreelanceSuite/commits/main)
-
-> A software project exploring workflows for freelancers. Check the implementation for the exact modules and actions currently available.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A software project exploring workflows for freelancers. Check the implementation for the exact modules and actions currently available.
-
-## Overview
-
-This repository provides a codebase for a freelance-work management experience. Document supported workflows—such as client records, projects, proposals, invoices, or task tracking—only when they are present in the code.
+Potential workflows for a freelancer platform include client records, project tracking, proposals, invoices, task status, and work summaries. Treat these as product directions unless they are clearly implemented in the source.
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/FreelanceSuite.git
+git clone https://github.com/kandisaikishore/FreelanceSuite.git
 cd FreelanceSuite
 ```
 
-Install dependencies and start the application using commands defined in the project configuration and environment examples.
+Install the runtime and dependencies specified by the repository's manifests, then use the project-defined start command. Configure credentials locally and do not commit secrets.
 
-## Implementation checklist
+## Quality checklist
 
-- Document supported user workflows
-- Validate form inputs and error messages
-- Protect client and billing data
-- Add tests for core business rules
-- Document deployment, backup, and recovery procedures
+- Validate required client and project fields
+- Check money and date values at boundary conditions if billing features exist
+- Verify role-based access before exposing client information
+- Test empty states, error messages, and data persistence
+- Document deployment and backup procedures
 
-## Scope
+## Contributing
 
-Do not assume payment processing, accounting compliance, email delivery, or persistent multi-user storage unless verified in the source.
-
-## Contributions
-
-Focused improvements and bug reports with reproduction steps are welcome.
+Report defects with clear reproduction steps and expected/actual results. Include validation notes with pull requests.
 
 ## License
 
-No license is specified. Add a `LICENSE` file before granting reuse rights.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
